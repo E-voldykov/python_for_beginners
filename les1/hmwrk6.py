@@ -5,9 +5,9 @@
 Программа должна принимать значения параметров a и b и выводить одно натуральное число — номер дня.
 """
 first_day = float(input("На первый день он пробежал: \n"))
-total_days = 3
+total_days = 1
 record = float(input("Введи количество километров до мечты: \n"))
 while first_day <  record:
-    first_day += (first_day* 0.1)
+    first_day += (first_day * 0.1)
     total_days += 1
 print (f"Мечты сбываются за {int(total_days)} дней!")

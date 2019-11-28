@@ -7,11 +7,9 @@ biggest, easter, count = 0, 0, 0
 while True:
     if easter == 6: print ("Я могу требовать это БЕСКОНЕЧНО, а ты?")
     print ("Введи ПОЛОЖИТЕЛЬНОЕ ЦЕЛОЕ ЧИСЛО, и не вздумай обманывать! \n ")
-    import ast
-    number = int(input())                            # Использовал маленькую хитрость
-    #s = ast.literal_eval(number)
+    number = int(input())
     easter +=1
-    # print (easter)
+    print (easter)
     # if type (number) == str:
     #     sprint ("ЧИСЛО! Ты знаешь, что это такое?")
     #     continue
