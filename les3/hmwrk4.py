@@ -27,6 +27,7 @@ def my_func2(number=x, power=y):
     сложение и вложенные циклы. Оператор * не используется, но работает
     только если обе переменные типа int.
     """
+
     number, power = int(x), abs(int(y))
     main = 0
     pwr = int(number) - 1
